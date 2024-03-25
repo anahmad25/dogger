@@ -9,26 +9,34 @@
             color: #868686
             margin: 20px 0 40px
             font-size: 20px
-    .start
-        text-align: left
-    .end
-        text-align: right
-    .textbox
-        padding: 0 80px
-        margin: auto
-        h2,h6
-            margin: 15px 0
-        h2
-            font-size: 33px
-        h6
-            font-size: 18px
-        .btn
-            padding: 10px 30px
-            border-radius: 20px
-            background-color: #a7b59f
-            color: #ffff
-    .imgbox
-        margin-bottom: 16px
+
+    .box
+        display: flex
+        .start
+            text-align: left
+        .end
+            text-align: right
+            order: -1
+        .textbox
+            padding: 0 100px
+            margin-top: auto
+            margin-bottom: auto
+            max-width: 650px
+            h2,h6
+                margin: 15px 0
+            h2
+                font-size: 33px
+            h6
+                font-size: 18px
+            .btn
+                padding: 10px 30px
+                border-radius: 20px
+                background-color: #a7b59f
+                color: #ffff
+        .imgbox
+            margin-bottom: 16px
+            max-width: 600px
+
     .bigicon
         i
             margin: 0 0 10px 0
@@ -36,35 +44,57 @@
             font-size: 30px
 
     /* Media queries */
-    @media (max-width: 992px)
-        .textbox
-            padding: 0 50px
-            margin: 0
-            h2,h6
-                margin: auto
-                margin-bottom: 10px
-            h2
-                font-size: 30px
-            h6
-                font-size: 16px
+    @media (max-width: 1399px)
+        .box
+            .textbox
+                max-width: 600px
+
+    @media (max-width: 1199px)
+        .box
+            .textbox
+                max-width: 500px
+
+    @media (max-width: 991px)
+        .box
+            .start
+                padding-left: 40px
+                padding-right: 20px
+            .end
+                padding-right: 40px
+                padding-left: 20px
+            .textbox
+                margin: 0
+                h2,h6
+                    margin: auto
+                    margin-bottom: 10px
+                h2
+                    font-size: 30px
+                h6
+                    font-size: 16px
 
     @media (max-width: 767px)
-        .textbox
-            margin-bottom: 20px
-            text-align: center
-            h2
-                margin-top: 5px
-        .imgbox
-            margin-bottom: 0
-            padding: 0 40px
+        .box
+            flex-wrap: wrap
+            .end
+                order: 0
+            .textbox
+                padding: 0 50px
+                margin-bottom: 20px
+                text-align: center
+                h2
+                    margin-top: 5px
+            .imgbox
+                margin-bottom: 0
+                padding: 0 40px
 
     @media (max-width: 576px)
-        .textbox
-            h2
-                font-size: 25px
-            .btn
-                padding: 5px 20px
-                background-color: #a7b59f
-                color: #ffff
-                h5
-                    font-size: 14px
+        .box
+            .textbox
+                h2
+                    font-size: 25px
+                .btn
+                    padding: 5px 20px
+                    background-color: #a7b59f
+                    color: #ffff
+                    h5
+                        font-size: 14px
