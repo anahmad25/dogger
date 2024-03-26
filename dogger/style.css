@@ -53,7 +53,7 @@ body .imgbox img {
   /* Media queries */
 }
 #welcome .heading {
-  padding: 0 24px;
+  max-width: 600px;
 }
 #welcome .heading h1 {
   font-weight: 700;
@@ -294,7 +294,10 @@ body .imgbox img {
   padding: 40px 0;
   /* Media queries */
 }
-#trainers h1 {
+#trainers .heading {
+  max-width: 600px;
+}
+#trainers .heading h1 {
   font-weight: 700;
   font-size: 38px;
 }
@@ -379,11 +382,14 @@ body .imgbox img {
   padding: 40px 0;
   /* Media queries */
 }
-#pricing h1 {
+#pricing .heading {
+  max-width: 600px;
+}
+#pricing .heading h1 {
   font-weight: 700;
   font-size: 35px;
 }
-#pricing h5 {
+#pricing .heading h5 {
   font-weight: 200;
   font-size: 20px;
   color: #000000;
@@ -464,12 +470,15 @@ body .imgbox img {
   padding: 40px 0;
   /* Media queries */
 }
-#faq h1 {
+#faq .heading {
+  max-width: 600px;
+}
+#faq .heading h1 {
   font-weight: 700;
   font-size: 36px;
   margin: 15px 0;
 }
-#faq h3 {
+#faq .heading h3 {
   font-size: 20px;
   margin: 0 0 40px;
   line-height: 1.4;
@@ -543,11 +552,14 @@ body .imgbox img {
   padding: 40px 0;
   /* Media queries */
 }
-#doggerblog h1 {
+#doggerblog .heading {
+  max-width: 600px;
+}
+#doggerblog .heading h1 {
   font-weight: 700;
   font-size: 35px;
 }
-#doggerblog h3 {
+#doggerblog .heading h3 {
   font-size: 20px;
   margin: 30px 0 60px;
 }
@@ -630,11 +642,14 @@ body .imgbox img {
   padding: 40px 0;
   /* Media queries */
 }
-#ourservices h1 {
+#ourservices .heading {
+  max-width: 600px;
+}
+#ourservices .heading h1 {
   font-weight: 700;
   font-size: 35px;
 }
-#ourservices h3 {
+#ourservices .heading h3 {
   font-size: 20px;
   color: #c6c6c6;
   margin: 30px 0;
