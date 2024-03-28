@@ -43,9 +43,6 @@ body .imgbox img {
   #wecare .textbox h1 {
     font-size: 50px;
   }
-  #wecare .imgbox {
-    padding: 0 20px;
-  }
 }
 
 #welcome {
@@ -140,13 +137,16 @@ body .imgbox img {
 @media (max-width: 767px) {
   #welcome .box {
     flex-wrap: wrap;
+    padding: 0 30px;
   }
   #welcome .box .end {
     order: 0;
   }
   #welcome .box .textbox {
-    padding: 0 50px;
+    padding: 0 20px;
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
   }
   #welcome .box .textbox h2 {
@@ -154,7 +154,6 @@ body .imgbox img {
   }
   #welcome .box .imgbox {
     margin-bottom: 0;
-    padding: 0 40px;
   }
 }
 @media (max-width: 576px) {
@@ -213,9 +212,6 @@ body .imgbox img {
   color: #d4cece;
   font-size: 30px;
 }
-#aboutus .imgbox {
-  width: 450px;
-}
 @media (max-width: 1400px) {
   #aboutus .textbox {
     padding: 0 80px 0 30px;
@@ -224,6 +220,8 @@ body .imgbox img {
 @media (max-width: 1199px) {
   #aboutus .textbox {
     padding: 0 40px 0 10px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   #aboutus .textbox h3, #aboutus .textbox p {
     margin-top: 15px;
@@ -247,7 +245,7 @@ body .imgbox img {
 }
 @media (max-width: 992px) {
   #aboutus .textbox {
-    padding: 0;
+    padding: 0 30px;
   }
   #aboutus .textbox h1 {
     font-size: 30px;
@@ -269,7 +267,7 @@ body .imgbox img {
     margin-bottom: 5px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #aboutus .textbox {
     text-align: center !important;
   }
@@ -277,16 +275,7 @@ body .imgbox img {
     padding-left: 20px;
   }
   #aboutus .imgbox {
-    width: 100%;
     margin-top: 20px;
-  }
-}
-@media (max-width: 576px) {
-  #aboutus .textbox {
-    padding: 0 20px;
-  }
-  #aboutus .img {
-    padding: 0 40px;
   }
 }
 
@@ -357,7 +346,6 @@ body .imgbox img {
 @media (max-width: 767px) {
   #trainers .box {
     margin-bottom: 20px;
-    padding: 0 30px;
   }
   #trainers .box .textbox {
     text-align: center;
@@ -370,11 +358,10 @@ body .imgbox img {
   #trainers .box .textbox ul li {
     margin: 0 10px !important;
   }
-  #trainers .box .imgbox {
-    height: 450px;
-  }
-  #trainers .box .imgbox img {
-    height: 100%;
+}
+@media (max-width: 575px) {
+  #trainers .box {
+    padding: 0 30px;
   }
 }
 
@@ -519,9 +506,6 @@ body .imgbox img {
   #faq .textbox {
     padding: 0;
   }
-  #faq .imgbox img {
-    height: 100%;
-  }
 }
 @media (max-width: 1200px) {
   #faq .textbox h2, #faq .textbox h4 {
@@ -598,9 +582,10 @@ body .imgbox img {
     flex-direction: column;
   }
   #doggerblog .box .textbox {
-    padding-right: 70px;
-    padding-left: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
     margin-top: 20px;
+    margin-left: 0;
   }
   #doggerblog .box .textbox h4, #doggerblog .box .textbox p {
     margin-top: 10px;
@@ -612,7 +597,8 @@ body .imgbox img {
 }
 @media (max-width: 1199px) {
   #doggerblog .box .textbox {
-    padding-left: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
   }
   #doggerblog .box .imgbox {
     width: 350px;
@@ -621,7 +607,7 @@ body .imgbox img {
 @media (max-width: 991px) {
   #doggerblog .box .textbox {
     padding-right: 30px;
-    padding-left: 5px;
+    padding-left: 30px;
   }
   #doggerblog .box .imgbox {
     width: 300px;
@@ -629,8 +615,8 @@ body .imgbox img {
 }
 @media (max-width: 767px) {
   #doggerblog .box .textbox {
-    padding-right: 120px;
-    padding-left: 65px;
+    padding-right: 90px;
+    padding-left: 90px;
     margin-bottom: 20px;
   }
   #doggerblog .box .imgbox {
