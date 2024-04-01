@@ -570,7 +570,7 @@ body .imgbox img {
   font-size: 18px;
 }
 #doggerblog .box .imgbox {
-  width: 280px;
+  max-width: 280px;
 }
 #doggerblog .bigicon i {
   margin: 0 0 10px 0;
@@ -594,7 +594,7 @@ body .imgbox img {
     margin-top: 10px;
   }
   #doggerblog .box .imgbox {
-    width: 400px;
+    max-width: 400px;
     margin: auto;
   }
 }
@@ -604,7 +604,7 @@ body .imgbox img {
     padding-left: 70px;
   }
   #doggerblog .box .imgbox {
-    width: 350px;
+    max-width: 350px;
   }
 }
 @media (max-width: 991px) {
@@ -613,17 +613,24 @@ body .imgbox img {
     padding-left: 30px;
   }
   #doggerblog .box .imgbox {
-    width: 300px;
+    max-width: 300px;
   }
 }
 @media (max-width: 767px) {
   #doggerblog .box .textbox {
-    padding-right: 90px;
-    padding-left: 90px;
+    max-width: 340px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 20px;
+    padding: 0;
   }
   #doggerblog .box .imgbox {
-    width: 350px;
+    max-width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  #doggerblog .box {
+    padding: 0 30px;
   }
 }
 
