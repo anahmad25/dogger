@@ -349,8 +349,8 @@ body .imgbox img {
   }
   #trainers .box .textbox {
     text-align: center;
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   #trainers .box .textbox ul {
     display: inline-flex !important;
@@ -362,6 +362,9 @@ body .imgbox img {
 @media (max-width: 575px) {
   #trainers .box {
     padding: 0 30px;
+  }
+  #trainers .box .textbox {
+    padding: 10px 0;
   }
 }
 
